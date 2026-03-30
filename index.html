@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gasterbaiter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container2">
+        <section class="hero">
+            <h1 class="hero-title">Добро пожаловать на наш сайт</h1>
+            <a href="#services" class="hero-scroll-button">
+                <img src="img/Vector.png" alt="Прокрутить вниз">
+            </a>
+        </section>
+    </div>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <img src="img/Слой 1 1 (4).png" alt="Логотип">
+                <span class="logo-text">Premium Development</span>
+            </div>
+            <nav class="nav">
+                <a href="#">Главная</a>
+                <a href="#services">Услуги</a>
+                <a href="#projects">Проекты</a>
+                <a href="#footer">О нас</a>
+            </nav>
+        </header>
+
+
+        <section id="services" class="section">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services">
+                <div class="service" onclick="expandService(this)">
+                    <img src="img/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus 1.png" alt="Услуга 1">
+                    <div class="service-content">
+                        <h3 class="service-title">Проектирование</h3>
+                        <p class="service-text">Создание проектного плана</p>
+                        <p class="service-full-text">Наши специалисты помогут с нуля создать вам проект на строительство желанного вами здания, а также с оформлением текущих документов и вводом его в эксплуатацию.</p>
+                    </div>
+                </div>
+                <div class="service" onclick="expandService(this)">
+                    <img src="img/96c7f31d-9cc1-4e8d-9fd5-992be96f3a49.jpg" alt="Услуга 2">
+                    <div class="service-content">
+                        <h3 class="service-title">Моделирование</h3>
+                        <p class="service-text">Создание макета</p>
+                        <p class="service-full-text">В нашей команде так же есть дизайнеры, которые смогут реализовать Ваши представления о квартире или же о другом помещении в реальность.</p>
+                    </div>
+                </div>
+                <div class="service" onclick="expandService(this)">
+                    <img src="img/construction-concept-image-helmet-rolled-blueprints-wooden-boards-retro-style 1.png" alt="Услуга 3">
+                    <div class="service-content">
+                        <h3 class="service-title">Строительство</h3>
+                        <p class="service-text">Реализация проекта</p>
+                        <p class="service-full-text">Мы постоянно повышаем профессиональный уровень наших специалистов и уровень оказания услуг, чтобы идти в ногу со временем, и освободить ценное время заказчика от траты времени на сбор бумаг, и поиска специалистов которые смогли бы ему помочь в текучих делах строительства или ремонта.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <!-- Заголовок "Наши проекты" -->
+            <h2 class="section-title">Наши проекты</h2>
+            
+            <!-- Секция с проектами, будет отображаться после заголовка -->
+            <div class="projects-content">
+                <div class="carousel-button prev-project">
+                    <img src="img/Vector2.png" alt="Предыдущий проект">
+                </div>
+        
+                <div class="project-container">
+                    <div class="project-item">
+                        <div class="project-image">
+                            <div class="carousel-button prev-image">
+                                <img src="img/Vector2.png" alt="Предыдущая картинка">
+                            </div>
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.41.51.jpeg" alt="Проект 1">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.41.52.jpeg" alt="Проект 2">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.41.54.jpeg" alt="Проект 3">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.02.jpeg" alt="Проект 4">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.00 (1).jpeg" alt="Проект 5">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.03 (1).jpeg" alt="Проект 6">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.00 (2).jpeg" alt="Проект 7">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.01 (1).jpeg" alt="Проект 8">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.42.02 (2).jpeg" alt="Проект 9">
+                            <div class="carousel-button next-image">
+                                <img src="img/Vector2.png" alt="Следующая картинка">
+                            </div>
+                        </div>
+        
+                        <div class="project-text">
+                            <h3 class="project-title">Международный Университет Кыргызской Республики</h3>
+                            <p class="project-description">
+Подготовка конкурентоспособных кадров, соответствующих международным стандартам качества, обладающих нравственными, культурными ценностями и востребованных на рынке труда.
+Международный университет Кыргызстана представляет собой высшее учебное заведение, имеющее международный статус и призванное готовить специалистов с широкопрофильным фундаментальным образованием и современным мировоззрением.
+Основные направления деятельности университета позволяют удачно соединить накопленный опыт учебно-научной деятельности и образовательной технологии европейского и американского уровней.
+Международный статус университета позволяет использовать преимущества и восполнить недостающие элементы в традициях обучения и воспитания, опирающихся на европейские, американские и азиатские педагогические стандарты и культуру в организации обучения и научно-исследовательской деятельности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="project-container">
+                    <div class="project-item">
+                        <div class="project-image">
+                            <div class="carousel-button prev-image">
+                                <img src="img/Vector2.png" alt="Предыдущая картинка">
+                            </div>
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.43.25 (2).jpeg" alt="Проект 1">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.43.26 (2).jpeg" alt="Проект 2">
+                            <img class="project-img" src="img/WhatsApp Image 2025-02-19 at 12.43.26.jpeg" alt="Проект 3">
+                            <div class="carousel-button next-image">
+                                <img src="img/Vector2.png" alt="Следующая картинка">
+                            </div>
+                        </div>
+        
+                        <div class="project-text">
+                            <h3 class="project-title">без понятия</h3>
+                            <p class="project-description">
+Подготовка конкурентоспособных кадров, соответствующих международным стандартам качества, обладающих нравственными, культурными ценностями и востребованных на рынке труда.
+Международный университет Кыргызстана представляет собой высшее учебное заведение, имеющее международный статус и призванное готовить специалистов с широкопрофильным фундаментальным образованием и современным мировоззрением.
+Основные направления деятельности университета позволяют удачно соединить накопленный опыт учебно-научной деятельности и образовательной технологии европейского и американского уровней.
+Международный статус университета позволяет использовать преимущества и восполнить недостающие элементы в традициях обучения и воспитания, опирающихся на европейские, американские и азиатские педагогические стандарты и культуру в организации обучения и научно-исследовательской деятельности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="project-container">
+                    <div class="project-item">
+                        <div class="project-image">
+                            <div class="carousel-button prev-image">
+                                <img src="img/Vector2.png" alt="Предыдущая картинка">
+                            </div>
+                            <img class="project-img" src="img/eee7dc2f-05b4-4ea1-b8fc-5f3c3c7b4dc6.jpg" alt="Проект 1">
+                            <img class="project-img" src="img/48b055ce-a7ac-405b-94b0-0937b52e3882.jpg" alt="Проект 2">
+                            <img class="project-img" src="img/1c330952-180b-4318-aca6-143033dd75e2.jpg" alt="Проект 3">
+                            <div class="carousel-button next-image">
+                                <img src="img/Vector2.png" alt="Следующая картинка">
+                            </div>
+                        </div>
+        
+                        <div class="project-text">
+                            <h3 class="project-title">Название проекта 1</h3>
+                            <p class="project-description">
+Подготовка конкурентоспособных кадров, соответствующих международным стандартам качества, обладающих нравственными, культурными ценностями и востребованных на рынке труда.
+Международный университет Кыргызстана представляет собой высшее учебное заведение, имеющее международный статус и призванное готовить специалистов с широкопрофильным фундаментальным образованием и современным мировоззрением.
+Основные направления деятельности университета позволяют удачно соединить накопленный опыт учебно-научной деятельности и образовательной технологии европейского и американского уровней.
+Международный статус университета позволяет использовать преимущества и восполнить недостающие элементы в традициях обучения и воспитания, опирающихся на европейские, американские и азиатские педагогические стандарты и культуру в организации обучения и научно-исследовательской деятельности.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="modal" id="imageModal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                    <div id="caption"></div>
+                </div>
+                
+                <div class="carousel-button next-project">
+                    <img src="img/Vector2.png" alt="Следующий проект">
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="about" class="about">
+            <div class="about-text">
+                <h2>О нас</h2>
+            <p>
+                Наша компания была образована в декабре 2018 года. Целью создания нашей компании было расширение диапазонов для оказания услуг клиентам, и профессиональный рост. 
+                За семь лет деятельности, компания наработала большую клиентскую базу, с очень хорошими отзывами.
+                Мы представляем полный спектр услуг, которые касаются строительства и отделочных работ.
+                
+            </p>
+        </section>
+
+
+        <section id="contacts" class="contacts">
+            <h2 class="contacts-title">Контакты</h2>
+            <div class="contacts-content">
+                <div class="contact-info">
+                    <p>
+                        Адрес: Чуйская Обл.,Сокулукский Рн., С.Романовка ул. Фрунзе д. 15<br>
+                        Телефоны: 0 997 500 500, 0 997 100 100<br>
+                        Email: <a href="mailto:info@premium.kg">info@premium.kg</a>
+                    </p>
+                </div>
+                <div class="map">
+                    <iframe id="map_726202002" frameborder="0" width="100%" height="300px" sandbox="allow-modals allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation"></iframe><script type="text/javascript">(function(e,t){var r=document.getElementById(e);r.contentWindow.document.open(),r.contentWindow.document.write(atob(t)),r.contentWindow.document.close()})("map_726202002", "PGJvZHk+PHN0eWxlPgogICAgICAgIGh0bWwsIGJvZHkgewogICAgICAgICAgICBtYXJnaW46IDA7CiAgICAgICAgICAgIHBhZGRpbmc6IDA7CiAgICAgICAgfQogICAgICAgIGh0bWwsIGJvZHksICNtYXAgewogICAgICAgICAgICB3aWR0aDogMTAwJTsKICAgICAgICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICAgIH0KICAgICAgICAuYnVsbGV0LW1hcmtlciB7CiAgICAgICAgICAgIHdpZHRoOiAyMHB4OwogICAgICAgICAgICBoZWlnaHQ6IDIwcHg7CiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7CiAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7CiAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMXB4IDNweCAwIHJnYmEoMCwgMCwgMCwgMC4yKTsKICAgICAgICAgICAgYm9yZGVyOiA0cHggc29saWQgIzAyODFmMjsKICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNTAlOwogICAgICAgIH0KICAgICAgICAucGVybWFuZW50LXRvb2x0aXAgewogICAgICAgICAgICBiYWNrZ3JvdW5kOiBub25lOwogICAgICAgICAgICBib3gtc2hhZG93OiBub25lOwogICAgICAgICAgICBib3JkZXI6IG5vbmU7CiAgICAgICAgICAgIHBhZGRpbmc6IDZweCAxMnB4OwogICAgICAgICAgICBjb2xvcjogIzI2MjYyNjsKICAgICAgICB9CiAgICAgICAgLnBlcm1hbmVudC10b29sdGlwOmJlZm9yZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IG5vbmU7CiAgICAgICAgfQogICAgICAgIC5kZy1wb3B1cF9oaWRkZW5fdHJ1ZSB7CiAgICAgICAgICAgIGRpc3BsYXk6IGJsb2NrOwogICAgICAgIH0KICAgICAgICAubGVhZmxldC1jb250YWluZXIgLmxlYWZsZXQtcG9wdXAgLmxlYWZsZXQtcG9wdXAtY2xvc2UtYnV0dG9uIHsKICAgICAgICAgICAgdG9wOiAwOwogICAgICAgICAgICByaWdodDogMDsKICAgICAgICAgICAgd2lkdGg6IDIwcHg7CiAgICAgICAgICAgIGhlaWdodDogMjBweDsKICAgICAgICAgICAgZm9udC1zaXplOiAyMHB4OwogICAgICAgICAgICBsaW5lLWhlaWdodDogMTsKICAgICAgICB9CiAgICA8L3N0eWxlPjxkaXYgaWQ9Im1hcCI+PC9kaXY+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly9tYXBzLmFwaS4yZ2lzLnJ1LzIuMC9sb2FkZXIuanM/cGtnPWZ1bGwmYW1wO3NraW49bGlnaHQiPjwvc2NyaXB0PjxzY3JpcHQ+KGZ1bmN0aW9uKGUpe3ZhciB0PUpTT04ucGFyc2UoZSkscj10Lm9yZGVyZWRHZW9tZXRyaWVzLG49dC5tYXBQb3NpdGlvbixhPXQuaXNXaGVlbFpvb21FbmFibGVkO2Z1bmN0aW9uIG8oZSl7cmV0dXJuIGRlY29kZVVSSUNvbXBvbmVudChhdG9iKGUpLnNwbGl0KCIiKS5tYXAoZnVuY3Rpb24oZSl7cmV0dXJuIiUiKygiMDAiK2UuY2hhckNvZGVBdCgwKS50b1N0cmluZygxNikpLnNsaWNlKC0yKX0pLmpvaW4oIiIpKX1ERy50aGVuKGZ1bmN0aW9uKCl7dmFyIGU9REcubWFwKCJtYXAiLHtjZW50ZXI6W24ubGF0LG4ubG9uXSx6b29tOm4uem9vbSxzY3JvbGxXaGVlbFpvb206YSx6b29tQ29udHJvbDohYX0pO0RHLmdlb0pTT04ocix7c3R5bGU6ZnVuY3Rpb24oZSl7dmFyIHQscixuLGEsbztyZXR1cm57ZmlsbENvbG9yOm51bGw9PT0odD1lKXx8dm9pZCAwPT09dD92b2lkIDA6dC5wcm9wZXJ0aWVzLmZpbGxDb2xvcixmaWxsT3BhY2l0eTpudWxsPT09KHI9ZSl8fHZvaWQgMD09PXI/dm9pZCAwOnIucHJvcGVydGllcy5maWxsT3BhY2l0eSxjb2xvcjpudWxsPT09KG49ZSl8fHZvaWQgMD09PW4/dm9pZCAwOm4ucHJvcGVydGllcy5zdHJva2VDb2xvcix3ZWlnaHQ6bnVsbD09PShhPWUpfHx2b2lkIDA9PT1hP3ZvaWQgMDphLnByb3BlcnRpZXMuc3Ryb2tlV2lkdGgsb3BhY2l0eTpudWxsPT09KG89ZSl8fHZvaWQgMD09PW8/dm9pZCAwOm8ucHJvcGVydGllcy5zdHJva2VPcGFjaXR5fX0scG9pbnRUb0xheWVyOmZ1bmN0aW9uKGUsdCl7cmV0dXJuInJhZGl1cyJpbiBlLnByb3BlcnRpZXM/REcuY2lyY2xlKHQsZS5wcm9wZXJ0aWVzLnJhZGl1cyk6REcubWFya2VyKHQse2ljb246ZnVuY3Rpb24oZSl7cmV0dXJuIERHLmRpdkljb24oe2h0bWw6IjxkaXYgY2xhc3M9J2J1bGxldC1tYXJrZXInIHN0eWxlPSdib3JkZXItY29sb3I6ICIrZSsiOyc+PC9kaXY+IixjbGFzc05hbWU6Im92ZXJyaWRlLWRlZmF1bHQiLGljb25TaXplOlsyMCwyMF0saWNvbkFuY2hvcjpbMTAsMTBdfSl9KGUucHJvcGVydGllcy5jb2xvcil9KX0sb25FYWNoRmVhdHVyZTpmdW5jdGlvbihlLHQpe2UucHJvcGVydGllcy5kZXNjcmlwdGlvbiYmdC5iaW5kUG9wdXAobyhlLnByb3BlcnRpZXMuZGVzY3JpcHRpb24pLHtjbG9zZUJ1dHRvbjohMCxjbG9zZU9uRXNjYXBlS2V5OiEwfSksZS5wcm9wZXJ0aWVzLnRpdGxlJiZ0LmJpbmRUb29sdGlwKG8oZS5wcm9wZXJ0aWVzLnRpdGxlKSx7cGVybWFuZW50OiEwLG9wYWNpdHk6MSxjbGFzc05hbWU6InBlcm1hbmVudC10b29sdGlwIn0pfX0pLmFkZFRvKGUpfSl9KSgneyJvcmRlcmVkR2VvbWV0cmllcyI6W3sidHlwZSI6IkZlYXR1cmUiLCJwcm9wZXJ0aWVzIjp7ImNvbG9yIjoiIzAyODFmMiIsInRpdGxlIjoiIiwiZGVzY3JpcHRpb24iOiIiLCJ6SW5kZXgiOjEwMDAwMDAwMDB9LCJnZW9tZXRyeSI6eyJ0eXBlIjoiUG9pbnQiLCJjb29yZGluYXRlcyI6Wzc0LjMxODA3Myw0Mi44NjM2MzldfSwiaWQiOjg0NX1dLCJtYXBQb3NpdGlvbiI6eyJsYXQiOjQyLjg2MDExMTQ3Njg2MzYsImxvbiI6NzQuMzUyNzIyMTY3OTY4NzYsInpvb20iOjEyfSwiaXNXaGVlbFpvb21FbmFibGVkIjp0cnVlfScpPC9zY3JpcHQ+PHNjcmlwdCBhc3luYz0iIiB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiIHNyYz0iaHR0cHM6Ly93d3cuZ29vZ2xldGFnbWFuYWdlci5jb20vZ3RhZy9qcz9pZD1VQS0xNTg4NjYxNjgtMSI+PC9zY3JpcHQ+PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPihmdW5jdGlvbihlKXtmdW5jdGlvbiB0KCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKX13aW5kb3cuZGF0YUxheWVyPXdpbmRvdy5kYXRhTGF5ZXJ8fFtdLHQoImpzIixuZXcgRGF0ZSksdCgiY29uZmlnIixlKSx3aW5kb3cuZ3RhZz10fSkoJ1VBLTE1ODg2NjE2OC0xJyk8L3NjcmlwdD48L2JvZHk+")</script>
+
+                </div>
+            </div>
+        </section>
+        
+
+        
+    </div>
+    <footer>
+        <div id="footer" class="footer-content">
+            <p class="footer-text">© 2024 Строительная компания Premium Developer</p>
+            <div class="footer-buttons">
+        
+                <!-- Офис -->
+                <a class="footer-button" target="_blank">
+                    <div class="footer-button-content">
+                        <img src="img/🦆 icon _whatsapp_.png" alt="Офис" width="24" height="24">
+                        <span>Whatsapp</span>
+                    </div>
+                </a>
+                        
+                <!-- Офис -->
+                <a class="footer-button" href="https://www.instagram.com/premiumltdbishkek/" target="_blank">
+                    <div class="footer-button-content">
+                        <img src="img/🦆 icon _instagram fill icon_.png" alt="Офис" width="24" height="24">
+                        <span>@premiumltdbishkek</span>
+                    </div>
+                </a>
+                        
+                <!-- Офис -->
+                <a class="footer-button" href="https://www.facebook.com/profile.php?id=61573098552368" target="_blank">
+                    <div class="footer-button-content">
+                        <img src="img/🦆 icon _facebook icon_.png" alt="Офис" width="24" height="24">
+                        <span>Сергей Воякин</span>
+                    </div>
+                </a>
+        
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
